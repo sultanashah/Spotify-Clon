@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: antiquewhite;
+    /* font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif; */
+
+}
+
+.brnds img{
+    width: 44px;
+    height: auto;
+    
+}
+
+.brnds{
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    gap: 20px;
+}
+
+nav{
+    width:100%;
+    /* position: fixed; */
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+
+.continer{
+    min-height: 20vh;
+    background-color: black;
+    color: white;
+    margin: 20px 10%;
+    font-family: 'Varela Round', sans-serif;
+    border-radius:12px;
+    padding: 28px 22px;
+    width: 70%;
+    /* height: 72vh; */
+    /* background-image: url('retro-microphone-on-stage-ai-generated-photo.jpg' ) ; */
+    background-size:cover;
+    background-image: url('depositphotos_654309952-stock-photo-joyful-multicolor-party-retro-music.jpg' ) ;
+    background-repeat: no-repeat;
+}
+.continer h1{
+    font-size: 2rem;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    margin-left: 4%;
+}
+
+
+
+
+.button{
+    position: sticky;
+    height: 12vh;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+
+}
+.icons img{
+    width: 24px;
+    cursor: pointer;
+    height: 24px;
+}
+
+.songItems{
+    height: 50px;
+    display:flex;
+    /* background-image: linear-gradient(white, blue); */
+    background-color: white;
+    /* background-color: rgb(218, 93, 93); */
+    color: black;
+    justify-content: space-between;
+    align-items:center;
+    margin: 2%;
+    /* margin: 12px 0; */
+    width: 50%;
+    border-radius: 34px;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: rgba(214, 214, 214, 0.1) 0px 1px 3px;
+    border:seashell;
+    box-shadow: 2px 2px;
+}
+
+.songItems img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestmp{
+    display:flex;
+    margin: 0 23px;
+    align-items:center;
+    height: 20px;
+}
+.timestmp img{
+    display:flex;
+    margin: 0 23px;
+    align-items:center;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.songslistcontiner{
+    margin: 44px;
+}
+
+.songinfo img{
+    width: 70px;
+    align-items:center;
+    justify-content: center;
+}
+
+.songinfo{
+    color: white;
+    display:flex;
+    margin: 68px 23px;
+    align-items:center;
+    justify-content: center;
+    font-size: 12px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    position: absolute;
+    gap: 8px;
+    top: 2px;
+    bottom: 0.9px;
+    right: 69vw;
+    /* left:40vw; */
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo{
+    opacity: 0;
+    transition:opacity is ease-in;
+}
